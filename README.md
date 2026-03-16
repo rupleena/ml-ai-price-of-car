@@ -200,7 +200,7 @@ Below are the top factors influencing used car prices:
 
 - **Interactive Dashboard Snapshot:**
 
-  ![Sample Dashboard](images/dashboard_figure.png)
+  ![Sample Dashboard](images/deployment_business_dashboard.png)
   <br>
   <sub><i>Dashboard overview—visualizing feature impacts and price predictions for selected vehicles.</i></sub>
 
