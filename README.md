@@ -161,12 +161,49 @@ Analyzed using Ridge Regression coefficients.
 ---
 
 # 📉 Factors Impacting Used Car Prices
+### Key Findings: What Drives Used Car Prices?
 
-1. Vehicle model (most predictive)
-2. Vehicle age
-3. Mileage
-4. Vehicle type
-5. Manufacturer reputation
+Our analysis of 426,880 used car records uncovered the most influential features impacting vehicle price and informed our predictive model development. These insights can help your dealership make smarter inventory and pricing decisions.
+
+Below are the top factors influencing used car prices:
+
+1. **Odometer (Mileage)**
+   - **Influence:** ~42% of price variability  
+   - **Insight:** Higher mileage leads to lower prices. Vehicles under 75,000 miles retain premium value.  
+   - **Recommendation:** Focus on acquiring and stocking low-mileage vehicles.
+
+2. **Vehicle Age**
+   - **Influence:** ~27% of price variability  
+   - **Insight:** Price decreases with age. Vehicles 3–7 years old offer the best value retention.  
+   - **Recommendation:** Target inventory on vehicles under 10 years old, and be cautious with vehicles over 15 years unless specialty/classic.
+
+3. **Manufacturer / Brand**
+   - **Influence:** ~14% of price variability  
+   - **Insight:** Brand reputation matters. Toyota and Honda have excellent value retention; luxury brands (BMW, Mercedes, Lexus) command 25–40% price premiums.  
+   - **Recommendation:** Balance mainstream brands for volume with select luxury vehicles for higher margins.
+
+4. **Model**
+   - **Influence:** ~8% of price variability  
+   - **Insight:** Popular models such as F-150, Camry, and Silverado consistently sell at a premium.  
+   - **Recommendation:** Prioritize high-demand models when sourcing inventory.
+
+5. **Vehicle Type**
+   - **Influence:** ~6% of price variability  
+   - **Insight:** SUVs and trucks are priced higher than sedans/coupes, reflecting current consumer preferences.  
+   - **Recommendation:** Increase allocation to SUVs and trucks to match market trends.
+---
+
+# 🖼️ Key Visualizations
+
+
+  <sub><i>Sample recommendation </i></sub>
+
+- **Interactive Dashboard Snapshot:**
+
+  ![Sample Dashboard](images/dashboard_figure.png)
+  <br>
+  <sub><i>Dashboard overview—visualizing feature impacts and price predictions for selected vehicles.</i></sub>
+
 
 *Regularized models excel when predictor variables are correlated, explaining Ridge’s strong performance.*
 
